@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* selk.App
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* javaee.App

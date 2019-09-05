@@ -54,9 +54,9 @@
                 <groupId>com.heroku.sdk</groupId>
                 <artifactId>heroku-maven-plugin</artifactId>
                 <configuration>
-                    <appName>heroku-first-app123</appName>
+                    <appName>javaee-starter</appName>
                     <processTypes>
-                        <web>java $JAVA_OPTS -cp target/classes:target/dependency/* selk.App</web>
+                        <web>java $JAVA_OPTS -cp target/classes:target/dependency/* javaee.App</web>
                     </processTypes>
                 </configuration>
             </plugin>
